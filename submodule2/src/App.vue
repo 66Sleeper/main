@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <div><p style="color: #2285ff"> 这里是主模块 </p></div>
-    <Project1 />
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import Project1 from '@/lib/src/components/Project1'
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    Project1,
+    HelloWorld
   }
 }
 </script>
